@@ -1,0 +1,331 @@
+.header::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -75px;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/vectors/verical-line-red.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    stroke-width:"2.5"
+}
+.main__block::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: -75px;
+    left: 50%;
+    left: calc(50%-75px);
+    width: 150px;
+    height: 150px;
+    background-image: url("../images/vectors/vertical-line-black.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    stroke-width:"2.5"
+}
+.main__block:last-child::after{
+    background-image: none;
+}
+
+.tag{
+    color: #4D4D4D;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #4D4D4D;
+}
+.header__p{
+    max-width: 374px;
+}
+.header__title{
+    margin-bottom: 40px;
+}
+.header__cards{
+    margin-bottom: 120px;
+}
+.header__cards .swiper-slide{
+    max-width: 385px;
+}
+.header__cards img{
+    width: 100%;
+}
+.header__supported{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    padding: 40px 0;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+}
+.content__inspired-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.inspired-images__img-group img{
+    width: 275px;
+}
+.inspired-images__img-group{
+    max-width: 472px;
+    text-align: center;
+    color: #000;
+}
+.quote::before{
+    content: '';
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: -50px;
+    bottom: 15%;
+    background-image: url("../images/vectors/line-1.svg");
+    background-size: cover;
+}
+.quote::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: -40px;
+    top:-60px;
+    background-image: url("../images/vectors/star-1-black.svg");
+    background-size: cover;
+}
+.quote{
+    position: relative;
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color:  #F7EDE8;
+}
+.author img{
+    vertical-align: baseline;
+}
+.author__app img{
+    height: 16px;
+}
+.quote h2{
+    text-align: center; 
+    max-width: 700px;
+}
+.testimonials{
+    background-color: #EDF3F7;
+}
+.testimonials>.content{
+    padding-right: 0 !important;
+}
+.testimonials .content__title{
+    position: relative;
+}
+.testimonials .sparcle{
+    position: absolute;
+    top:-66px;
+    left:-105px;
+}
+.users-reviews{
+    margin-bottom: 60px;
+    align-self: flex-start;
+    width: 100%;
+    overflow-x: hidden;
+}
+.user-review{
+    max-width: 570px; 
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px; 
+}
+.review__text{
+    max-width: 490px;
+}
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.features .content__title{
+    position: relative;
+}
+.features .content__title::after{
+    content: "";
+    position: absolute;
+    right: -120px;
+    bottom: 60px;
+    width: 240px;
+    height: 240px;
+    background-image: url(../images/vectors/line-3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(14.305deg); 
+}
+.benefit-card{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.benefit-text{
+    max-width: 338px;
+}
+.resent-episodes{
+    background-color: #F7EDE8;    
+}
+.episodes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-bottom: 80px;
+}
+.episodes__card{
+    width: 45%;
+    padding: 16px;
+    border-radius: 12px;
+    border: 2px solid var(--Black, #000);
+    background: #FFF;
+    box-shadow: 10px 10px 0px 0px #81ADC8;
+}
+.episodes__card:nth-child(1)
+>.episodes__title{
+    color: var(--Vermillion, #CD4631);
+}
+.episodes__card:nth-child(4)
+>.episodes__title{
+    color: var(--Vermillion, #CD4631);
+}
+.episodes__card:nth-child(5)
+>.episodes__title{
+    color: var(--Vermillion, #CD4631);
+}
+.episodes__card>img{
+    width: 166px;
+    height: 166px; 
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.episodes__episode-num{
+    color: var(--Vermillion, #CD4631);
+    margin-bottom: 4px;
+}
+.episodes__title{
+    margin:0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #4D4D4D;
+    margin-bottom: 10px;
+}
+.episodes__episode-description{
+    margin-bottom: 40px;
+}
+.episodes__author{
+    float: right;
+    color:#4D4D4D;
+}
+.episodes__author img{
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    vertical-align: bottom;
+}
+.episodes__author>img:last-child{
+    position: relative;
+    left: -10px;
+}
+.pricing__level{
+    display: flex;
+    gap: 20px;
+}
+.price-level>div{
+    border-radius: 8px;
+    border: 1.5px solid var(--Black, #000);
+    background: #FFF;
+}
+.price-level:nth-child(2)>div{
+    border: 1.5px solid var(--Vermillion, #CD4631);
+    background: var(--Champagne, #F7EDE8);
+}
+.level{
+    margin-bottom: 20px;
+    padding: 60px 40px 30px;
+}
+.level> .caption{
+    max-width: 292px;
+    margin-bottom: 90px;
+}
+.include{
+    min-height: 312px;
+    padding: 40px 40px 0;
+}
+.include li{
+    margin-bottom: 10px;
+}
+.level__popular::after{
+    content: "MOST POPULAR";
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 160%; /* 19.2px */
+    padding: 3px 6px; 
+    margin-left: 2%;
+    border-radius: 4px;
+    border: 1px solid var(--Vermillion, #CD4631);
+    background: var(--Vermillion, #CD4631);
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subscribe-price div:first-child{
+    color: #CD4631;
+}
+.subscribe-price div:last-child{
+    color: #4D4D4D;
+}
+
+.news__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.news__card{
+    width: 45%;
+    border-radius: 8px;
+    border: 2px solid var(--Black, #000);
+    background: #FFF;
+    padding:16px;
+}
+.news__card:hover{
+    box-shadow: 10px 10px 0px 0px #000;
+}
+.news__card:hover>h2{
+    color: #CD4631;
+}
+.news__card img{
+    width:100%;
+}
+.news__text{
+    max-width: 538px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid #4D4D4D;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width:1350px) {
+    .pricing__level{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price-level{
+        display: flex;
+        gap:20px;
+    }
+    .price-level>div{
+        margin-bottom: 0;
+        width: 292px;
+        min-height: 312px;
+    }
+}
