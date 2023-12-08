@@ -1,0 +1,62 @@
+.header__episode{
+    width: 100%;
+    padding: 0 10%;
+}
+.header__episode-img{
+    width: 472px;
+    height: 472px;
+}
+.header__about-episode{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+    margin-bottom: 80px;
+}
+.header__about-text{
+    max-width: 590px;
+}
+.header__episode-num{
+    position: relative;
+    color: #CD4631;
+}
+.header__episode-num::after{
+    content: "FEATURED EPISODE";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #CD4631;
+    color: #CD4631;
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 160%;
+}
+.header__episode-description{
+    margin-bottom: 40px;
+}
+.header__author{
+    margin-bottom: 60px;
+}
+.header__author-pic{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.header__episode-author{
+    color: #CD4631;
+}
+.header__episode-date{
+    float: right;
+}
+.header__episode-tag span:first-child{
+    margin-right: 5%;
+}
+.header__title{
+    padding-bottom: 23px;
+    border-bottom: 1px solid #4D4D4D;
+}
+.header__listen>span{
+    color: #CD4631;
+}

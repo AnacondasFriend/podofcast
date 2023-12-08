@@ -83,6 +83,8 @@
 }
 .sponsor{
     background: var(--Champagne, #F7EDE8);
+    width: 100%;
+    overflow-x: hidden;
 }
 .swiper-sponsor{
     margin-bottom: 60px;
@@ -110,11 +112,14 @@
 .form__inputs{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .input-group{
+    width: 48%;
     max-width: 373px;
 }
-.input-group label::after{
+.input-group label::after,
+.textarea-group label::after{
     content: " *";
     color: var(--Vermillion, #CD4631);
     font-size: 14px;
@@ -122,13 +127,15 @@
     line-height: 160%;
     margin-bottom: 16px;
 }
-.input-group input{
-    width: 373px;
+.input-group input,
+.textarea-group textarea{
+    width:100%;
     padding: 19px 0 19px 20px; 
     border-radius: 8px;
     border: 1.5px solid var(--Vermillion, #000);
     background: #FFF;
 }
+
 .input-group input:active{
     border: 1.5px solid var(--Vermillion, #CD4631);
 }
